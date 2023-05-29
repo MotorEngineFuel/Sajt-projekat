@@ -26,6 +26,8 @@ ul li:hover ul {
 nav {
   height: 30px;
   background-color: #eee;
+  position: sticky;
+  top: 0;
 }
 * {
   margin: 0;
@@ -98,6 +100,7 @@ button {
 }
 form {
   margin: 0px auto;
+  width: 300px;
 }
 textarea {
   width: 20%;
@@ -106,6 +109,7 @@ textarea {
 .field {
   width: 20%;
   margin: 0 auto;
+  padding: 5px;
 }
 #kontakt {
   text-align: center;
@@ -120,4 +124,13 @@ textarea {
 .dugme {
   padding: 5px 5px;
   margin: 5px auto;
+}
+input[type="text"] {
+  width: 282px;
+}
+input[type="email"] {
+  width: 282px;
+}
+textarea {
+  width: 288px;
 }
